@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #0d0d0d;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.bg-glow {
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(circle at top left, #ff4d6d40, transparent 40%),
+    radial-gradient(circle at bottom right, #ffb70340, transparent 40%);
+  z-index: -1;
+}
+
+.card {
+  background: rgba(0,0,0,0.75);
+  border-radius: 20px;
+  padding: 2rem;
+  max-width: 420px;
+  text-align: center;
+  box-shadow: 0 0 40px rgba(255,77,109,0.4);
+}
+
+.title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: #ff4d6d;
+  line-height: 1.1;
+  text-shadow: 0 0 15px #ff4d6d;
+}
+
+.to-text {
+  margin-top: 1rem;
+  font-weight: 300;
+  opacity: 0.9;
+}
+
+.name {
+  margin: 0.5rem 0;
+  font-size: 1.6rem;
+  color: #ffd166;
+}
+
+.message {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 1rem 0;
+}
+
+.butterfly {
+  width: 100%;
+  max-width: 260px;
+  margin: 1rem auto;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(255,209,102,0.5);
+}
+
+.footer {
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+#musicBtn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #ff4d6d;
+  border: none;
+  color: #000;
+  padding: 10px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 0 15px #ff4d6d;
+}
